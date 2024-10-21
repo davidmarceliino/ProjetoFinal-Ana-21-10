@@ -1,0 +1,148 @@
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.728);
+}
+
+body {
+  background-color: rgba(67, 67, 67, 0.776);
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(230, 11, 11);
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 1.5rem;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(246, 255, 0);
+  font-size: 25px;
+}
+
+.menu li a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+}
+
+.imgLogo {
+  width: 100px;
+  margin-right: 500px;
+}
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 500px;
+  background: #515151;
+  padding: 45px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container header {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .form {
+  margin-top: 15px;
+}
+
+.form .input-box {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-box label {
+  color: #ffffff;
+}
+
+.form :where(.input-box input) {
+  position: relative;
+  height: 35px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #808080;
+  margin-top: 5px;
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 0 15px;
+  background: #FCEDDA;
+}
+
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form button {
+  height: 40px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: red;
+}
+
+.form button:hover {
+  background: red;
+}

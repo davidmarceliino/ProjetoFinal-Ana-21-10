@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"></div><img class="imgLogo" src="img/logo menu.png" alt="">
+        <div class="menu-btn"></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html"><img src="img/inicio.png" alt="Voltar"></a></li>
+                <li><a href="#Produtos"><img src="img/produtos.png" alt="Produtos"></a></li>
+                <li class="drop">
+                    <a href="#"><img src="img/serviços.png" alt="Serviços"></a>
+                    <div class="dropMenu">
+                        <a href="#Sobre Nós">Sobre Nós</a>
+                    </div>
+                </li>
+                <li><a href="#"><img src="img/contato.png" alt="Contato"></a></li>
+            </ul>
+            <li class="login"><a href="login.html"><img src="img/usuario.png" alt=""></a></li>
+            <li class="login"><a href="cadastro.html"><img src="img/cadastrar.png" alt=""></a></li>
+        </nav>
+    </div>
+    <br><br><br><br><br>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form class="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
